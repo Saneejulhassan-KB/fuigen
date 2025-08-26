@@ -11,7 +11,7 @@ import Footer from '@/components/Footer';
 const Index = () => {
   return (
     <ThemeProvider defaultTheme="light" storageKey="fuigen-theme">
-      <div className="min-h-screen bg-background">
+      <div className="min-h-screen bg-background" style={{overflow:'hidden'}}>
         <Navigation />
         <main>
           <HeroSection />

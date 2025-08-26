@@ -38,8 +38,8 @@ const HeroSection = () => {
       </div>
 
       {/* Content */}
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8 z-20 relative">
-        <div className="text-center text-white">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8 z-20 relative mt-[80px]">
+        <div className="text-center text-white ">
           {/* Main Heading */}
           <div className={`transition-all duration-1000 ${isLoaded ? 'animate-fade-in-up' : 'opacity-0 translate-y-8'}`}>
             <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold mb-6 leading-tight">
@@ -73,7 +73,7 @@ const HeroSection = () => {
               <Button 
                 size="lg" 
                 variant="outline" 
-                className="border-white text-white hover:bg-white hover:text-fuigen-primary px-8 py-6 text-lg font-semibold transition-bounce"
+                className="bg-white text-fuigen-primary hover:bg-white/90 px-8 py-6 text-lg font-semibold shadow-hover transition-bounce"
                 onClick={() => document.querySelector('#services')?.scrollIntoView({ behavior: 'smooth' })}
               >
                 View Services
